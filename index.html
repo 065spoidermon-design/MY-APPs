@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Islamic Apps Store</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:#fff;
+    padding:60px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+    opacity:.9;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.section-title{
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.apps-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.app-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.app-card:hover{
+    transform:translateY(-5px);
+}
+
+.app-header{
+    padding:30px;
+    text-align:center;
+    background:#eef2ff;
+}
+
+.app-icon{
+    width:90px;
+    height:90px;
+    border-radius:22px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:42px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.app-header h3{
+    font-size:24px;
+    margin-bottom:8px;
+}
+
+.app-header p{
+    color:#666;
+    font-size:14px;
+}
+
+.app-body{
+    padding:25px;
+}
+
+.app-body ul{
+    list-style:none;
+    margin-bottom:20px;
+}
+
+.app-body ul li{
+    padding:6px 0;
+    color:#444;
+    font-size:14px;
+}
+
+.download-btn{
+    display:block;
+    text-align:center;
+    background:#22c55e;
+    color:#fff;
+    text-decoration:none;
+    padding:14px;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.download-btn:hover{
+    background:#16a34a;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+    margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Islamic Apps Store</h1>
+    <p>Download Secure and Useful Android Applications</p>
+</header>
+
+<div class="container">
+    <h2 class="section-title">Our Applications</h2>
+
+    <div class="apps-grid">
+
+        <!-- App Card Start -->
+        <div class="app-card">
+            <div class="app-header">
+                <div class="app-icon">🔒</div>
+                <h3>Secret Gallery</h3>
+                <p>Hide photos and videos securely.</p>
+            </div>
+
+            <div class="app-body">
+                <ul>
+                    <li>🔐 4-Digit Passcode</li>
+                    <li>🖼️ Hide Photos</li>
+                    <li>🎥 Hide Videos</li>
+                    <li>📂 Separate Tabs</li>
+                    <li>➕ Import from Gallery</li>
+                </ul>
+
+                <!-- APK Download Link -->
+                <a
+                  href="https://YOUR-APK-LINK/app-release.apk"
+                  class="download-btn"
+                >
+                  Download APK
+                </a>
+            </div>
+        </div>
+        <!-- App Card End -->
+
+    </div>
+</div>
+
+<footer>
+    © 2026 Islamic Apps Store. All Rights Reserved.
+</footer>
+
+</body>
+</html>
